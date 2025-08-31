@@ -3,7 +3,7 @@ import httpStatus from 'http-status';
 import mongoose from 'mongoose';
 import QueryBuilder from '../../builder/QueryBuilder';
 import AppError from '../../errors/AppError';
-import { AcademicSemester } from '../AcademicSemester/academicSemester.model';
+import { AcademicSemester } from '../academicSemester/academicSemester.model';
 import { OfferedCourse } from '../OfferedCourse/OfferedCourse.model';
 import { RegistrationStatus } from './semesterRegistration.constant';
 import { TSemesterRegistration } from './semesterRegistration.interface';
