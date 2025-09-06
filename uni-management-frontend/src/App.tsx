@@ -1,10 +1,8 @@
-import {Button} from "./components/ui/button";
+import MainLayout from "@/layouts/MainLayout.tsx";
 
 function App() {
     return (
-        <div>
-            <Button>Submit</Button>
-        </div>
+        <MainLayout/>
     );
 }
 
