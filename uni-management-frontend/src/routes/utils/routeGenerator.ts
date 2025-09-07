@@ -23,6 +23,5 @@ export const routeGenerator = (routes: USER_ROUTE[]): USER_ROUTE[] => {
             })
         }
     })
-    console.log(routes)
     return userRoutes;
 }
